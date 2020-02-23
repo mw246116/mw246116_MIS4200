@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<mw246116_MIS4200.Models.Pet>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Pets";
 }
 
 <h2>Index</h2>
@@ -9,7 +9,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
+<table class="table-hover">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.petName)
